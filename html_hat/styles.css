@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+} 
+
+.site-name {
+    width: 3%;
+    color:white;
+} 
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+} 
+
+.nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+} 
+
+.nav-link:hover {
+    color: orange;
+}
+
+.main {
+    padding: 20px;
+    height: 700px;
+    position: relative;
+}
+
+.main::after {
+    content: '';
+    background-image: url(./img//blood_bowl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.button-call {
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.button-call:hover {
+    color: orange;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 50px;
+    color:black;
+    flex-direction: column;
+}
+
+.services {
+    height: 1500px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+}
+
+.box {
+    margin: 50px;
+    border: 1px solid yellow;
+    width: 100%;
+}
+
+.general {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid yellow;
+}
+
+.image-general {
+    border-right: 1px solid yellow;
+    flex-basis: 50%;
+}
+
+.image-general img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.about-us { 
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    font-size: 30px;
+    color:black;
+    flex-direction: column;
+    flex-basis: 50%;
+    border-right: 1px solid yellow;
+    padding: 0 100px;
+    gap: 20px;
+    text-align: left;
+}
+
+.more-info {
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.more-info:hover {
+    color: orange;
+}
+
+.second-part {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid yellow;
+}
+
+.second-part div { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    color:black;
+    flex-basis: 25%;
+    border-right: 1px solid yellow;
+}
+
+.projects {
+    padding: 20px;
+    height: 1100px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    color:black;
+}
+
+.five-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.goose-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.goose-images img {
+    display: flex;
+    padding: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+.solo-image {
+    height: 900px;
+    display: flex;
+}
+
+.solo-image img {
+    display: flex;
+    padding: 30px;
+    height: 800px;
+    width: 600px;
+}
+
+.goose-images img:hover {
+    opacity: 0.5;
+    color: orange;
+    cursor: pointer;
+}
+
+.solo-image:hover {
+    opacity: 0.5;
+    color: orange;
+    cursor: pointer;
+}
+
+.look-all {
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.look-all:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.reviews {
+    height: 500px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+}
+
+.rev-part {
+    margin: 50px;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid yellow;
+}
+
+.rev-part div { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    color:black;
+    flex-basis: 25%;
+    border-right: 1px solid yellow;
+    padding: 0 20px;
+}
+
+.rev-part div:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    height: 350px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+}
+
+.my-info { 
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 300px;
+    font-size: 20px;
+    color:black;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 0 50px;
+    gap: 20px;
+    text-align: left;
+}
+
+.my-info div:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 300px;
+    font-size: 12px;
+    color:black;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 0 50px;
+    gap: 20px;
+    text-align: left;
+    list-style: none;   
+} 
+
+.foot-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+} 
+
+.foot-link:hover {
+    color: orange;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 12px;
+    color:black;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 40px;
+} 
+
+.inputs {
+    display: flex;
+    font-size: 15px;
+    gap: 5px;
+    width: 100%;
+}
+
+.inputs input {
+    background-color: gray;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.form-box {
+    flex-basis: 40%;
+} 
+
+.input-box {
+    flex-basis: 50%;
+}
+
+.inputs input :hover{
+    cursor: pointer;
+}
